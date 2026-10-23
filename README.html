@@ -1,0 +1,108 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guardian project guide</title><style>body{font:17px/1.65 Arial,sans-serif;color:#173438;background:#faf9f5;margin:0}main{max-width:1050px;padding:36px 24px;margin:auto}h1{font-size:32px;line-height:1.25}h2{margin-top:32px}table{border-collapse:collapse;background:white;width:100%}th,td{padding:10px;border:1px solid #cbd7da;text-align:left}th{background:#e7eff0}pre{background:#edf2f2;padding:16px;overflow:auto}a{color:#176f73}</style><main><h1>Data Analysis for the Development of Companion Robots for Older Adults</h1>
+<p>Interaction experience, continued use and the Guardian proposal</p>
+<p>Class: CT2985013<br />
+Student Name: Wong Chei Oi (Alice)</p>
+<p>English submission edition - 23 October 2026</p>
+<h2>Start here</h2>
+<ol>
+<li>Read <a href="Companion_Robot_Report_English.pdf"><strong>Companion_Robot_Report_English.pdf</strong></a>, the final 21-page report with the approved layout.</li>
+<li>Open <a href="Guardian_Presentation_English.pptx"><strong>Guardian_Presentation_English.pptx</strong></a>, the final 29-slide presentation. Its cover title and subtitle match the report. It contains 13 editable charts and 4 editable tables.</li>
+<li>Open <a href="Companion_Robot_Analysis.ipynb"><strong>Companion_Robot_Analysis.ipynb</strong></a> for the analysis code and freshly executed outputs. <a href="Notebook_View.html"><strong>Notebook_View.html</strong></a> is a convenient offline reading copy.</li>
+<li>Open <a href="interactive/All_Charts_Offline.html"><strong>interactive/All_Charts_Offline.html</strong></a> for 16 English interactive charts. Extract the entire ZIP before opening files. No internet connection is needed to view the charts.</li>
+<li><a href="interactive/Guardian_Demo.html"><strong>interactive/Guardian_Demo.html</strong></a> is an optional fictional scenario demonstration. It does not detect fraud, make calls, send messages or provide rescue.</li>
+</ol>
+<h2>Files</h2>
+<table>
+<thead>
+<tr>
+  <th>File or folder</th>
+  <th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Companion_Robot_Analysis.ipynb</td>
+  <td>English notebook, 47 executed code cells</td>
+</tr>
+<tr>
+  <td>Companion_Robot_Analysis.py</td>
+  <td>Script version of the notebook analysis</td>
+</tr>
+<tr>
+  <td>data/</td>
+  <td>11 original CSVs: 2 HRI CUES files and 9 supplementary files</td>
+</tr>
+<tr>
+  <td>sources/</td>
+  <td>Source manifest and reference details</td>
+</tr>
+<tr>
+  <td>Data_Sources_and_Notes.md</td>
+  <td>Definitions, interpretation limits and report/figure crosswalk</td>
+</tr>
+<tr>
+  <td>HRI_CUES_Source.txt</td>
+  <td>Dataset DOI and licence</td>
+</tr>
+<tr>
+  <td>Companion_Robot_Report_English.pdf</td>
+  <td>Final English report</td>
+</tr>
+<tr>
+  <td>Guardian_Presentation_English.pptx</td>
+  <td>Final editable English presentation</td>
+</tr>
+<tr>
+  <td>Notebook_View.html</td>
+  <td>Offline notebook reading copy with outputs</td>
+</tr>
+<tr>
+  <td>interactive/</td>
+  <td>English chart dashboard, three individual Plotly views and optional concept demo</td>
+</tr>
+<tr>
+  <td>code/</td>
+  <td>Bundled Plotly JavaScript, saved chart definitions and rebuild script</td>
+</tr>
+<tr>
+  <td>charts/</td>
+  <td>16 English static chart images</td>
+</tr>
+<tr>
+  <td>assets/</td>
+  <td>Concept illustrations used in the materials</td>
+</tr>
+<tr>
+  <td>HRI_CUES_Excel_Readable.xlsx</td>
+  <td>Original Excel reading copy, not a replacement for the CSVs</td>
+</tr>
+<tr>
+  <td>Submission_Checks.md</td>
+  <td>Checks completed and verification limits</td>
+</tr>
+<tr>
+  <td>SHA256SUMS.txt</td>
+  <td>File integrity hashes, excluding this checksum file itself</td>
+</tr>
+</tbody>
+</table>
+<p>Superseded report Word and presentation PDF copies are excluded to avoid mixing revisions. The submitted report PDF and presentation PPTX are the authoritative versions. Chinese presentation/report versions and the mixed-language reference template are excluded. Original CSV source labels and Swedish conversation text are preserved as source records. All analysis explanations and chart display labels are English.</p>
+<h2>Run the analysis</h2>
+<p>Use Python 3.12 or a compatible Python 3 environment. From this unzipped folder:</p>
+<pre><code class="language-bash">python -m pip install -r requirements.txt
+jupyter notebook Companion_Robot_Analysis.ipynb
+</code></pre>
+<p>Trust this notebook if your Jupyter installation asks before displaying its saved interactive outputs. Restart the kernel and run the cells from the top. The <code>data/</code> folder must remain beside the notebook. The three Plotly outputs embed their JavaScript for offline viewing.</p>
+<p>Alternatively, run:</p>
+<pre><code class="language-bash">python Companion_Robot_Analysis.py
+</code></pre>
+<p>The script uses paths relative to its own location. It exports 13 Matplotlib chart PNGs and three individual offline Plotly HTML views. The three other PNGs in <code>charts/</code> are the supplied static report figures for the Plotly analyses. Visual styles can differ between the report, notebook and interactive views, while their values and definitions agree.</p>
+<p>To rebuild the dashboard from the saved English figure definitions:</p>
+<pre><code class="language-bash">python code/rebuild_interactive_charts.py
+</code></pre>
+<p>This command uses the Python standard library. The dashboard is a checked snapshot of the included CSVs. It does not automatically recalculate after CSV edits. If source values change, rerun the analysis and update the saved dashboard definitions before issuing revised materials.</p>
+<p>The notebook HTML reading copy is saved with outputs, so it does not require Python to read. Installing the analysis dependencies requires internet access unless they are already available.</p>
+<h2>Interpretation</h2>
+<p>The main data contain 590 repeated dialogue turns from 25 participants and 25 questionnaire records. P21 satisfaction remains missing. The paired comparison uses 24 complete participants. The nine supplementary CSVs contain 61 aggregate records from different studies and sources, not 61 additional HRI CUES participants.</p>
+<p>Studies differ in participants, setting, period and outcome measure. Their results support separate design questions rather than a robot effectiveness ranking. Guardian is a proposed concept. The four-week procedure, five volunteers and 20 scripted cases are proposed, not completed research. Price information is historical source context, not a current quotation.</p>
+</main></html>

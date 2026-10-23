@@ -1,0 +1,108 @@
+{
+  "HK": {
+    "title": "Hong Kong Population Projections 2022-2046",
+    "publisher": "Census and Statistics Department, Hong Kong",
+    "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1120015/att/B1120015092023XXXXB01.pdf",
+    "published": "2023",
+    "locator": "Appendix B, Table B1, printed p. 57, PDF p. 67",
+    "unit": "Aggregate population projections at selected years",
+    "population": "Hong Kong resident population, excluding foreign domestic helpers",
+    "design": "Baseline projections published in 2023, including the projected 2026 value",
+    "limit": "Not observed population or robot demand. Ages 15-64 are not a count of carers. Original rounded percentages are retained.",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "ELLIQ": {
+    "title": "Three Years of Success with ElliQ and NYSOFA",
+    "publisher": "Intuition Robotics, hosted by NYSOFA",
+    "url": "https://aging.ny.gov/transforming-care-older-adults-three-years-success-ny-older-adults-living-elliq",
+    "published": "2026-02",
+    "locator": "PDF p. 3, self-reports; p. 6, activity categories",
+    "unit": "Reported activity shares or user-response percentages",
+    "population": "New York ElliQ programme users; Year 3, June 2024 to May 2025",
+    "design": "Vendor programme report with use records and self-reported feedback",
+    "limit": "834 cumulative participants by May 2025 is not a per-item respondent denominator. Activity shares total 99.9% due to rounding.",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "PIO": {
+    "title": "Effects of a cognitive-based intervention program using social robot PIO on cognitive function, depression, loneliness, and quality of life of older adults living alone",
+    "publisher": "Lim, Frontiers in Public Health",
+    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1097485/full",
+    "published": "2023-02-06",
+    "locator": "Table 4, loneliness; Methods 2.2 and 2.3",
+    "unit": "Group-time mean loneliness scores and standard deviations",
+    "population": "Older adults living alone in Seoul, age 65+; 31 activity and 33 control participants",
+    "design": "Non-randomised controlled before-and-after study; six weeks, twice weekly, 50 minutes per session",
+    "limit": "Staff-led cognitive and social activities prevent isolating the robot effect. SD describes individual spread, not a confidence interval.",
+    "license": "CC BY",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "PARO": {
+    "title": "Effect of a Group-Based Personal Assistive RObot (PARO) Robot Intervention on Cognitive Function, Autonomic Nervous System Function, and Mental Well-being in Older Adults with Mild Dementia: A Randomized Controlled Trial",
+    "publisher": "Chen et al., JAMDA 25 (2024) 105228",
+    "url": "https://doi.org/10.1016/j.jamda.2024.105228",
+    "readable_url": "https://www.nhri-hits.tw/publish/356070038.pdf",
+    "published": "2024",
+    "locator": "Table 4, UCLA-3 changes T2-T1 and T3-T1; Table 1 sample",
+    "unit": "Mean change in loneliness from baseline",
+    "population": "Older adults age 65+ with mild dementia at four Taiwan day centres",
+    "design": "Randomised controlled trial; 120 allocated, 58 PARO and 60 control analysed; six weeks, Week 10 follow-up",
+    "limit": "Week 6 between-group change p<.001; Week 10 p=.07. Sustained long-term improvement is not established. Do not rank against PIO.",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "HYODOL": {
+    "title": "Perceptions and experiences of Korean American older adults with companion robots through long-term use: a comparative analysis of robot retention vs. return",
+    "publisher": "Lee, Yun and Park, Frontiers in Public Health",
+    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1424123/full",
+    "published": "2024-11-18",
+    "locator": "Methods 2.2, Results 3.4, Table 4",
+    "unit": "People retaining or returning; people mentioning return reasons",
+    "population": "Korean American older adults in the northeastern US; original cohort 41; 6 returned within one week; 35 completed four months",
+    "design": "Single-group exploratory study; 24 completers kept the free robot and 11 returned it",
+    "limit": "24/35=68.6% among completers, 24/41=58.5% in the original cohort. Return reasons allow multiple responses. Eight reported counts are retained; original blanks are not zero.",
+    "license": "CC BY",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "HOBBIT": {
+    "title": "Hobbit: Providing Fall Detection and Prevention for the Elderly in the Real World",
+    "publisher": "Bajones et al., Journal of Robotics",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657",
+    "published": "2018",
+    "locator": "Table 2, Working over days in use; Sections 3.1 and 4.6",
+    "unit": "Published feature availability indicator (%)",
+    "population": "18 primary users age 75+ in Austria, Greece and Sweden",
+    "design": "Home prototype trial; users experienced Device first, then Companion; 140 and 128 use days respectively",
+    "limit": "The indicator includes partial working days. It is not task success, fall sensitivity or rescue success. Modes were sequential, not parallel randomised groups. The historical prototype does not represent current commercial performance.",
+    "license": "CC BY",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "IC3": {
+    "title": "2023 Elder Fraud Report",
+    "publisher": "FBI Internet Crime Complaint Center",
+    "url": "https://www.ic3.gov/AnnualReport/Reports/2023_IC3ElderFraudReport.pdf",
+    "published": "2024 (statistics for 2023)",
+    "locator": "PDF p. 7, Over 60 complaints by crime type",
+    "unit": "Complaints received by IC3, classified by crime type",
+    "population": "Original age category Over 60; not Hong Kong residents age 65+",
+    "design": "Administrative complaint records; six selected categories in a 2023 cross-section",
+    "limit": "Not population fraud rates, independently confirmed victim counts or robot prevention effectiveness. Age can be missing and incidents unreported. Selected categories do not cover all complaints.",
+    "retrieved_date_hk": "2026-10-08"
+  },
+  "HRI_CUES": {
+    "title": "HRI CUES Dataset - Anonymized",
+    "publisher": "Irfan et al.",
+    "published": "2024",
+    "url": "https://doi.org/10.5281/zenodo.12588810",
+    "unit": "590 dialogue turns from 25 participants; 25 survey rows",
+    "design": "Brief Swedish workshop interactions",
+    "limit": "Repeated turns are not independent people. One missing satisfaction answer.",
+    "license": "CC BY 4.0",
+    "scale_paper": {
+      "published": "2026",
+      "journal": "IEEE Transactions on Affective Computing",
+      "volume": "17",
+      "issue": "2",
+      "pages": "1438-1453",
+      "url": "https://doi.org/10.1109/TAFFC.2025.3590359"
+    }
+  }
+}

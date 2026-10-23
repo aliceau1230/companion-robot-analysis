@@ -1,0 +1,5 @@
+HRI CUES Dataset - Anonymized (Version 1.0), Irfan et al., 2024.
+https://doi.org/10.5281/zenodo.12588810
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Original data files are unmodified. The notebook adds summaries and charts.
+HRI CUES = Human-Robot Interaction Conversational User Enjoyment Scale.

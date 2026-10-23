@@ -1,0 +1,5 @@
+﻿group_tc,group_en,week,stage_tc,stage_en,mean_score,sd,n,higher_score,source_id,source_url,source_locator
+PIO活動組,PIO activity group,0,介入前,Before intervention,42.45,11.69,31,較孤獨,PIO,https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1097485/full,Table 4，loneliness；Methods 2.2、2.3
+PIO活動組,PIO activity group,6,第6週,Week 6,31.19,11.05,31,較孤獨,PIO,https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1097485/full,Table 4，loneliness；Methods 2.2、2.3
+對照組,Control group,0,介入前,Before intervention,42.03,10.26,33,較孤獨,PIO,https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1097485/full,Table 4，loneliness；Methods 2.2、2.3
+對照組,Control group,6,第6週,Week 6,41.48,10.65,33,較孤獨,PIO,https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1097485/full,Table 4，loneliness；Methods 2.2、2.3

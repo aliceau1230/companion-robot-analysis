@@ -1,0 +1,21 @@
+﻿feature_tc,feature_en,mode_tc,mode_en,reported_availability_pct,days_in_use,metric,source_id,source_url,source_locator
+召喚機械人,Call Hobbit,Device模式,Device mode,81.79,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+靠近用戶,Come closer,Device模式,Device mode,83.57,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+停止指令,Stop Hobbit,Device模式,Device mode,82.86,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+緊急功能,Emergency,Device模式,Device mode,70.71,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+拾起物件,Pick up object,Device模式,Device mode,23.21,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+學習新物件,Teach a new object,Device模式,Device mode,50.0,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+拿取物件,Bring object to user,Device模式,Device mode,21.43,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+日曆提醒,Calendar reminders,Device模式,Device mode,35.36,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+跟隨用戶,Follow me,Device模式,Device mode,20.36,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+移動到指定位置,Move to location,Device模式,Device mode,77.86,140,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+召喚機械人,Call Hobbit,Companion模式,Companion mode,79.3,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+靠近用戶,Come closer,Companion模式,Companion mode,85.94,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+停止指令,Stop Hobbit,Companion模式,Companion mode,87.11,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+緊急功能,Emergency,Companion模式,Companion mode,75.78,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+拾起物件,Pick up object,Companion模式,Companion mode,19.53,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+學習新物件,Teach a new object,Companion模式,Companion mode,49.61,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+拿取物件,Bring object to user,Companion模式,Companion mode,16.8,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+日曆提醒,Calendar reminders,Companion模式,Companion mode,32.81,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+跟隨用戶,Follow me,Companion模式,Companion mode,21.09,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6
+移動到指定位置,Move to location,Companion模式,Companion mode,81.64,128,Working over days in use（作者指標）,HOBBIT,https://onlinelibrary.wiley.com/doi/10.1155/2018/1754657,Table 2，Working over days in use；Sections 3.1及4.6

@@ -1,0 +1,5 @@
+﻿group_tc,group_en,week,mean_change,sd_change,n,change_definition,between_group_change_p,source_id,source_url,source_locator
+PARO活動組,PARO activity group,6,-5.36,8.35,58,該時點分數減介入前分數,<.001,PARO,https://doi.org/10.1016/j.jamda.2024.105228,Table 4，UCLA-3，T2−T1及T3−T1；Table 1樣本
+PARO活動組,PARO activity group,10,-1.52,8.21,58,該時點分數減介入前分數,.07,PARO,https://doi.org/10.1016/j.jamda.2024.105228,Table 4，UCLA-3，T2−T1及T3−T1；Table 1樣本
+對照組,Control group,6,9.18,8.58,60,該時點分數減介入前分數,<.001,PARO,https://doi.org/10.1016/j.jamda.2024.105228,Table 4，UCLA-3，T2−T1及T3−T1；Table 1樣本
+對照組,Control group,10,1.23,8.53,60,該時點分數減介入前分數,.07,PARO,https://doi.org/10.1016/j.jamda.2024.105228,Table 4，UCLA-3，T2−T1及T3−T1；Table 1樣本
